@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+        header, nav, section, footer {
+            padding: 20px;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+        nav {
+            background-color: #666;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+        .menu {
+            list-style-type: none;
+            padding: 0;
+        }
+        .menu li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Image Links</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a> | 
+        <a href="#gallery">Gallery</a> | 
+        <a href="#menu">Menu</a>
+    </nav>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our website! Explore the links below:</p>
+        <a href="https://technology.jpg"><img src="c:\Users\user\Documents\technology\technology.jpg" alt="This is advanced technology"></a>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="https://nature.jpg"><img src="c:\Users\user\Documents\nature\nature 1.jpg" alt="The beauty of nature"></a>
+        </div>
+    </section>
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul class="menu">
+            <li><a href="https://food1.jpg"><img src="c:\Users\user\Documents\food\Food 1.jpg" alt="Different delicious food"></a>
+            <li><a href="https://food4.jpg"><img src="c:\Users\user\Documents\food\Food 4.jpg" alt="What do you think about this recipe"></a>
+            <li><a href="https://food3.jpg"><img src="c:\Users\user\Documents\food\Food 3.webp" alt="Good breakfast good bread"></a>
+        </ul>
+    </section>
+    <footer>
+        <p>© 2024 Image Links. All rights reserved.</p>
+    </footer>
+</body>
+</html>
